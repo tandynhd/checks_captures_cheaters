@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Checks Captures Cheaters</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search-header">
+            <input id ="username" placeholder="Enter chess.com username" class="search-header__input" type="text" />
+            <button class="search-header__button" id="fetchButton">
+                <svg
+                fill="none"
+                viewBox="0 0 18 18"
+                height="18"
+                width="18"
+                class="search-header__icon"
+                >
+                <path
+                    fill="#3A3A3A"
+                    d="M7.132 0C3.197 0 0 3.124 0 6.97c0 3.844 3.197 6.969 7.132 6.969 1.557 0 2.995-.49 4.169-1.32L16.82 18 18 16.847l-5.454-5.342a6.846 6.846 0 0 0 1.718-4.536C14.264 3.124 11.067 0 7.132 0zm0 .82c3.48 0 6.293 2.748 6.293 6.15 0 3.4-2.813 6.149-6.293 6.149S.839 10.37.839 6.969C.839 3.568 3.651.82 7.132.82z"
+                ></path>
+                </svg>
+            </button>
+        </div>
+        <div>
+            <label for="monthRange" class="section-title">Check games from the past <span id="monthsLabel">1</span> month(s):</label>
+        </div>
+        <div>
+            <input type="range" id= "monthRange" min="1" max="12" value="1" step="1" class="PB-range-slider" id="myRange">
+        </div>
+        <div id="ratingDisplay"></div>
+        <div id="movesDisplay"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
