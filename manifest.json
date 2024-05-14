@@ -3,7 +3,7 @@
     "name": "Checks, Captues, Cheaters",
     "version": "1.0",
     "description": "Check your oponents ratings, common openings, and past accuracies to get to cheaters before they get to you.",
-    "permissions": ["activeTab", "storage", "https://api.chess.com/"],
+    "permissions": ["https://api.chess.com/"],
     "action": {
       "default_popup": "popup.html",
       "default_icon": "icon.png"

@@ -30,7 +30,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    fetchButton.addEventListener('click', fetchData);
+    fetchButton.addEventListener('click', () => {
+        if (usernameInput.value !== prevUsername) {
+            fetchData(usernameInput.value);
+        }
+    });
 
     async function fetchData(username) {
         const months = monthRangeInput.value;
