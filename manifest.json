@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Chess.com Rating Viewer",
+    "name": "Checks, Captues, Cheaters",
     "version": "1.0",
-    "description": "View Chess.com user ratings and most played moves",
+    "description": "Check your oponents ratings, common openings, and past accuracies to get to cheaters before they get to you.",
     "permissions": ["activeTab", "storage", "https://api.chess.com/"],
     "action": {
       "default_popup": "popup.html",
